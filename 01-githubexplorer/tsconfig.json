@@ -1,7 +1,5 @@
 {
-  "compilerOptions": {
-    "target": "es5",                                
-    "module": "commonjs",                           
+  "compilerOptions": {                          
     "lib": ["DOM", "DOM.Iterable" , "ESNext"],                                   
     "allowJs": true,                             
     "jsx": "react-jsx",                           
@@ -15,6 +13,5 @@
     "skipLibCheck": true,                           
     "forceConsistentCasingInFileNames": true        
   },
-
   "include": ["src"]
 }

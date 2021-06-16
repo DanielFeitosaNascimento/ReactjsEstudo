@@ -1,8 +1,14 @@
-import style from '../styles/components/RepositoryItem.module.scss';
+interface RepositoryItemProps {
+  repository: {
+    name: string
+    description: string
+    html_url: string
+  }
+}
 
-const RepositoryItem = (props) => {
+const RepositoryItem = (props: RepositoryItemProps) => {
   return (
-    <li className={style.container}>
+    <li>
       <strong>{props.repository.name}</strong>
       <p>{props.repository.description}</p>
 
