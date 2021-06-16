@@ -1,0 +1,30 @@
+.container {
+  margin: 3.25rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      & + li {
+        margin-top: 1.25rem;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #444;
+        margin-top: 0.5rem;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 1rem;
+        text-decoration: none; 
+        color: #8107e6;
+      }
+    }
+  }
+}
