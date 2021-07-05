@@ -28,4 +28,9 @@ export const Content = styled.div`
       filter: brightness(0.9);
     }
   }
+
+  .new-transition-modal {
+    width: 30rem;
+    height: 50rem;
+  }
 `
